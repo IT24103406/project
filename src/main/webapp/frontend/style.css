@@ -1,0 +1,69 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-primary:hover {
+    background-color: #23272b;
+    border-color: #23272b;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.comparison-table {
+    margin-top: 30px;
+}
+
+.comparison-table .highlight {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
